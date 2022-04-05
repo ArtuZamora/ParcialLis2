@@ -25,33 +25,7 @@
         ?>
         <!-- End Navbar -->
 
-        <!-- Bootstrap modal -->
-        <div class="modal fade" id="modal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-
-                        <h3 class="titulo-modal"></h3>
-                    </div>
-                    <div class="modal-body form">
-                        <ul class="list-group">
-                            <li class="list-group-item"> <b>Nombre del producto: </b> <span id="name_product"></span></li>
-                            <li class="list-group-item"> <b>Descripcion: </b> <span id="Description_prod"></span></li>
-                            <li class="list-group-item"> <b>Imagen: </b> <span id="Image_prod"></span></li>
-                            <li class="list-group-item"> <b>Precio: </b> $<span id="Price"></span></li>
-                            <li class="list-group-item"> <b>Existencias: </b> <span id="Stock"></span></li>
-                            <li class="list-group-item"> <b>Categoria: </b> <span id="category_Id"></span></li>
-
-                        </ul>
-
-                    </div>
-                    <div class="modal-footer">
-
-                    </div>
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-        <!-- End Bootstrap modal -->
+       
 
         <!-- Page Content -->
         <div class="containter-fluid py-4">

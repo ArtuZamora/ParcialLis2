@@ -5,18 +5,18 @@
 }
 
 .login-body {
-    background: linear-gradient(90deg, #053D63 0%, #3376A6 76.15%, #76ABD2 100%) !important;
-    font-family: 'Roboto' !important;
+    background:  rgb(151, 139, 82) !important;
+
     font-style: normal !important;
 }
 
 .login-title {
-    color: white;
+    color: #3d351e;
     cursor: pointer;
 }
 
 .login-footer {
-    color: lightgray;
+    color:  #3d351e;
     cursor: pointer;
 }
 
@@ -42,7 +42,7 @@
 .signin-box h1 {
     font-size: 2em !important;
     padding: 1em !important;
-    color: #747474;
+    color:  #3d351e;
 }
 
 .signin-box .text-danger {
@@ -55,13 +55,13 @@
 .login-box .icon,
 .signin-box .icon {
     font-size: 29px;
-    color: #AEADAD;
+    color:  #3d351e;
 }
 
 .login-box .btn-primary,
 .signin-box .btn-primary {
     margin-top: 0.5em;
-    background-color: #0C51A8 !important;
+    background-color: #3d351e !important;
     height: 3em;
 }
 
@@ -70,23 +70,11 @@
 }
 
 .login-bg-img {
-    height: 662px !important;
+    height: 500px !important;
     margin-left: -17em !important;
 }
 
-.assistance-box {
-    background: white;
-    border-radius: 1em;
-    width: 750px;
-    height: 550px;
-    text-align: center;
-}
 
-.assistance-box h2 {
-    font-size: 1em !important;
-    padding: 2em 2em 0em !important;
-    color: #747474;
-}
 
 .title-general {
     font-size: 2.5em !important;

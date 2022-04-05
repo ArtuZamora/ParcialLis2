@@ -25,33 +25,7 @@
         ?>
         <!-- End Navbar -->
 
-        <!-- Bootstrap modal -->
-        <div class="modal fade" id="modal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-
-                        <h3 class="titulo-modal"></h3>
-                    </div>
-                    <div class="modal-body form">
-                        <ul class="list-group">
-                            <li class="list-group-item"> <b>Nombre del producto: </b> <span id="name_product"></span></li>
-                            <li class="list-group-item"> <b>Descripcion: </b> <span id="Description_prod"></span></li>
-                            <li class="list-group-item"> <b>Imagen: </b> <span id="Image_prod"></span></li>
-                            <li class="list-group-item"> <b>Precio: </b> $<span id="Price"></span></li>
-                            <li class="list-group-item"> <b>Existencias: </b> <span id="Stock"></span></li>
-                            <li class="list-group-item"> <b>Categoria: </b> <span id="category_Id"></span></li>
-
-                        </ul>
-
-                    </div>
-                    <div class="modal-footer">
-
-                    </div>
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-        <!-- End Bootstrap modal -->
+        
 
         <!-- Page Content -->
         <div class="containter-fluid py-4">
@@ -68,7 +42,7 @@
                                         <div class="form-group">
                                             <label for="codigo">Codigo del producto</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" name="id_product" id="id_product" value="<?= isset($product) ? $product['Id'] : '' ?>" placeholder="Ingresa el codigo del producto">
+                                                <input type="text" class="form-control" name="id_product" id="id_product" value="<?= isset($product) ? $product['Id'] : '' ?>" placeholder="Ingresa el codigo del producto" readonly>
                                             </div>
                                             <p class="text-danger"><?= isset($error_log['id_product_error']) ? $error_log['id_product_error'] : '' ?></p>
                                         </div>
