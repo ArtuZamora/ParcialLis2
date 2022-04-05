@@ -1,0 +1,99 @@
+.editOpt:hover,
+.deleteOpt:hover,
+.createOpt:hover {
+    color: white;
+}
+
+.login-body {
+    background: linear-gradient(90deg, #053D63 0%, #3376A6 76.15%, #76ABD2 100%) !important;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+}
+
+.login-title {
+    color: white;
+    cursor: pointer;
+}
+
+.login-footer {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.login-box {
+    background: white;
+    border-radius: 1em;
+    margin-top: 14%;
+    width: 567px;
+    height: 350px;
+    text-align: center;
+}
+
+.signin-box {
+    background: white;
+    border-radius: 1em;
+    margin-top: 4%;
+    width: 567px;
+    height: 509px;
+    text-align: center;
+}
+
+.login-box h1,
+.signin-box h1 {
+    font-size: 2em !important;
+    padding: 1em !important;
+    color: #747474;
+}
+
+.signin-box .text-danger {
+    margin: 0;
+    height: 1em;
+    text-align: start;
+    font-size: 13px;
+}
+
+.login-box .icon,
+.signin-box .icon {
+    font-size: 29px;
+    color: #AEADAD;
+}
+
+.login-box .btn-primary,
+.signin-box .btn-primary {
+    margin-top: 0.5em;
+    background-color: #0C51A8 !important;
+    height: 3em;
+}
+
+.form-group {
+    margin: 1em;
+}
+
+.login-bg-img {
+    height: 662px !important;
+    margin-left: -17em !important;
+}
+
+.assistance-box {
+    background: white;
+    border-radius: 1em;
+    width: 750px;
+    height: 550px;
+    text-align: center;
+}
+
+.assistance-box h2 {
+    font-size: 1em !important;
+    padding: 2em 2em 0em !important;
+    color: #747474;
+}
+
+.title-general {
+    font-size: 2.5em !important;
+    color: whitesmoke;
+}
+
+.capture-img {
+    height: 160px;
+    border-radius: 1em;
+}

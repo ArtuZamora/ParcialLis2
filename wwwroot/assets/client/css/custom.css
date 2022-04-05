@@ -1,0 +1,13 @@
+.round-image {
+    border-radius: 50%;
+    max-width: 16%;
+}
+
+.round-image-bg {
+    border-radius: 50%;
+    max-width: 75%;
+}
+
+.product {
+    cursor: pointer;
+}
